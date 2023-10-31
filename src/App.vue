@@ -25,6 +25,7 @@ const addWeight = () => {
   <div class="current">
     <span>{{ currentweight.weight }}</span>
     <small> Current weight (kg)</small>
+    <small>Your Weight</small>
   </div>
 
   <form @submit.prevent="addWeight">
